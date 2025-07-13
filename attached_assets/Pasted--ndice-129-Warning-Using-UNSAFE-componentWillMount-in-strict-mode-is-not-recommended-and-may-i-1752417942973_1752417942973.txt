@@ -1,0 +1,64 @@
+(índice):129 
+ Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+
+Please update the following components: SideEffect(NullComponent2)
+deprecations.ts:9 
+ ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+deprecations.ts:9 
+ ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+AbastecimentoModule.jsx:1498 
+ Uncaught ReferenceError: Truck is not defined
+    at AbastecimentoModule (AbastecimentoModule.jsx:1498:14)
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+useAuditLog.js:25 Audit Log: 
+Object
+AbastecimentoModule.jsx:1498 
+ Uncaught ReferenceError: Truck is not defined
+    at AbastecimentoModule (AbastecimentoModule.jsx:1498:14)
+(índice):129 
+ The above error occurred in the <AbastecimentoModule> component:
+
+    at AbastecimentoModule (http://localhost:5173/src/components/modules/AbastecimentoModule.jsx:2634:47)
+    at main
+    at div
+    at div
+    at ModulePage (http://localhost:5173/src/pages/ModulePage.jsx:55:35)
+    at ProtectedRoute (http://localhost:5173/src/App.jsx:29:27)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4088:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4558:5)
+    at div
+    at AppContent
+    at DataProvider (http://localhost:5173/src/contexts/DataContext.jsx:30:32)
+    at AuthProvider (http://localhost:5173/src/contexts/AuthContext.jsx:21:32)
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4501:15)
+    at HashRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:5283:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+react-dom.development.js:12056 
+ Uncaught ReferenceError: Truck is not defined
+    at AbastecimentoModule (AbastecimentoModule.jsx:1498:14)

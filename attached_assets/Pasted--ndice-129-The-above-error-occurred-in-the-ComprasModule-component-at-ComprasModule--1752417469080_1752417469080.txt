@@ -1,0 +1,37 @@
+(índice):129 
+ The above error occurred in the <ComprasModule> component:
+
+    at ComprasModule (http://localhost:5173/src/components/modules/ComprasModule.jsx:74:41)
+    at main
+    at div
+    at div
+    at ModulePage (http://localhost:5173/src/pages/ModulePage.jsx:55:35)
+    at ProtectedRoute (http://localhost:5173/src/App.jsx:29:27)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4088:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4558:5)
+    at div
+    at AppContent
+    at DataProvider (http://localhost:5173/src/contexts/DataContext.jsx:30:32)
+    at AuthProvider (http://localhost:5173/src/contexts/AuthContext.jsx:21:32)
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4501:15)
+    at HashRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:5283:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+react-dom.development.js:12056 
+ Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ModulePage`.
+    at createFiberFromTypeAndProps (react-dom.development.js:28478:17)
+    at createFiberFromElement (react-dom.development.js:28504:15)
+    at reconcileSingleElement (react-dom.development.js:13986:23)
+    at reconcileChildFibers2 (react-dom.development.js:14044:35)
+    at reconcileChildren (react-dom.development.js:19186:28)
+    at updateHostComponent (react-dom.development.js:19953:3)
+    at beginWork (react-dom.development.js:21657:14)
+    at beginWork$1 (react-dom.development.js:27465:14)
+    at performUnitOfWork (react-dom.development.js:26596:12)
+    at workLoopSync (react-dom.development.js:26505:5)
+﻿
+

@@ -1,0 +1,91 @@
+(índice):129  Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at ModulePage.jsx:149.
+    at ModulePage (http://localhost:5173/src/pages/ModulePage.jsx:55:35)
+    at ProtectedRoute (http://localhost:5173/src/App.jsx:29:27)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4088:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4558:5)
+    at div
+    at AppContent
+    at DataProvider (http://localhost:5173/src/contexts/DataContext.jsx:30:32)
+    at AuthProvider (http://localhost:5173/src/contexts/AuthContext.jsx:21:32)
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4501:15)
+    at HashRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:5283:5)
+console.error @ (índice):129
+react-dom.development.js:28478  Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ModulePage`.
+    at createFiberFromTypeAndProps (react-dom.development.js:28478:17)
+    at createFiberFromElement (react-dom.development.js:28504:15)
+    at reconcileSingleElement (react-dom.development.js:13986:23)
+    at reconcileChildFibers2 (react-dom.development.js:14044:35)
+    at reconcileChildren (react-dom.development.js:19186:28)
+    at updateHostComponent (react-dom.development.js:19953:3)
+    at beginWork (react-dom.development.js:21657:14)
+    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
+    at invokeGuardedCallback (react-dom.development.js:4277:31)
+2(índice):129  Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at ModulePage.jsx:149.
+    at ModulePage (http://localhost:5173/src/pages/ModulePage.jsx:55:35)
+    at ProtectedRoute (http://localhost:5173/src/App.jsx:29:27)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4088:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4558:5)
+    at div
+    at AppContent
+    at DataProvider (http://localhost:5173/src/contexts/DataContext.jsx:30:32)
+    at AuthProvider (http://localhost:5173/src/contexts/AuthContext.jsx:21:32)
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4501:15)
+    at HashRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:5283:5)
+console.error @ (índice):129
+react-dom.development.js:28478  Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ModulePage`.
+    at createFiberFromTypeAndProps (react-dom.development.js:28478:17)
+    at createFiberFromElement (react-dom.development.js:28504:15)
+    at reconcileSingleElement (react-dom.development.js:13986:23)
+    at reconcileChildFibers2 (react-dom.development.js:14044:35)
+    at reconcileChildren (react-dom.development.js:19186:28)
+    at updateHostComponent (react-dom.development.js:19953:3)
+    at beginWork (react-dom.development.js:21657:14)
+    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
+    at invokeGuardedCallback (react-dom.development.js:4277:31)
+(índice):129  The above error occurred in the <div> component:
+
+    at div
+    at div
+    at aside
+    at MotionComponent (http://localhost:5173/node_modules/.vite/deps/framer-motion.js?v=220064fa:277:40)
+    at div
+    at ModulePage (http://localhost:5173/src/pages/ModulePage.jsx:55:35)
+    at ProtectedRoute (http://localhost:5173/src/App.jsx:29:27)
+    at RenderedRoute (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4088:5)
+    at Routes (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4558:5)
+    at div
+    at AppContent
+    at DataProvider (http://localhost:5173/src/contexts/DataContext.jsx:30:32)
+    at AuthProvider (http://localhost:5173/src/contexts/AuthContext.jsx:21:32)
+    at App
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:4501:15)
+    at HashRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=220064fa:5283:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+console.error @ (índice):129
+react-dom.development.js:12056  Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ModulePage`.
+    at createFiberFromTypeAndProps (react-dom.development.js:28478:17)
+    at createFiberFromElement (react-dom.development.js:28504:15)
+    at reconcileSingleElement (react-dom.development.js:13986:23)
+    at reconcileChildFibers2 (react-dom.development.js:14044:35)
+    at reconcileChildren (react-dom.development.js:19186:28)
+    at updateHostComponent (react-dom.development.js:19953:3)
+    at beginWork (react-dom.development.js:21657:14)
+    at beginWork$1 (react-dom.development.js:27465:14)
+    at performUnitOfWork (react-dom.development.js:26596:12)
+    at workLoopSync (react-dom.development.js:26505:5)
